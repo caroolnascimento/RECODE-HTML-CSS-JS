@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* INÍCIO Formatação Menu*/
+.menu  {
+    background-color:#e61919;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+   padding-left: 80px;
+   padding-right: 80px;
+    text-align: center;
+  
+}
+/*  FIM Formatação Menu*/
+
+.categorias {
+    display: inline-block;
+    text-align: center;
+    
+}
+
+/* INÍCIO Produtos*/
+.produtos {
+    margin-left: 200px;
+    margin-top: -180px;
+    
+}
+
+.box_produtos {
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px; 
+}
+
+.box_produtos p {
+    width: 320px;
+}
+
+.imgs {
+    width: 120px;
+}
+
+.descricao {
+    text-decoration: black;
+
+}
+
+.strike {
+     text-decoration: line-through; color:#e61919;
+}
+
+.preço { 
+    text-decoration: black;
+
+}
+/*  FIM Produtos*/
+
+/* INÍCIO Nossas Lojas */
+
+.enderecos {
+    display: inline-block;
+    text-align: center;
+    margin-left: 200px;   
+    margin-left: 50px; 
+    padding: 90px;
+    
+}
+/*  FIM Nossas Lojas */
+
+/* INÍCIO Fale Conosco */
+
+ .borda {
+    text-align: center;
+ }
+
+ .b {
+    display: inline-block;
+    padding: 30px;
+ }
+
+.logo {
+    width:40px
+}
+
+/* FIM Fale Conosco */
+
+/* INÍCIO Formulários */
+
+form {
+    text-align: center;
+}
+
+.nome {
+    width: 400px; height: 40px;
+
+}
+.textoarea{
+    width: 400px; height: 80px;
+}
+
+/* FIM Fale Conosco */
+#formas_pagamento {
+    color: #e61919 ;
+}
+
+#rodape {
+    text-align: center;
+}
+
+
+width="33%"
