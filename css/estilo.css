@@ -19,26 +19,37 @@ body {
 /*  FIM Formatação Menu*/
 
 .categorias {
-    display: inline-block;
-    text-align: center;
+    width: 300px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.categorias li:hover { 
+    font-size: 13px;
+    cursor: pointer;
     
 }
 
 /* INÍCIO Produtos*/
 .produtos {
-    margin-left: 200px;
-    margin-top: -180px;
-    
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 230px;
+    margin-top: -200px;
 }
 
 .box_produtos {
-    display: inline-block;
+    display:inline-block;
+    padding: 10px;
+    margin: 20px auto;
     text-align: center;
-    margin-left: 50px; 
+    vertical-align: middle;
+    width: 250px;
+    height: 350px; 
 }
 
 .box_produtos p {
-    width: 320px;
+    width: 350px;
 }
 
 .imgs {
@@ -113,4 +124,3 @@ form {
 }
 
 
-width="33%"
