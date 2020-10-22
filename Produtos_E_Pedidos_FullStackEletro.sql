@@ -29,9 +29,8 @@ create table if not exists pedidos(
     nome_cliente varchar(90) NOT NULL,
     endereço VARCHAR(200) NOT NULL,
 	telefone VARCHAR(20) NOT NULL UNIQUE,
-	endereço VARCHAR(200) NOT NULL,
-    nome_do_produto VARCHAR(200),
+	nome_do_produto VARCHAR(200),
     valor_unitario DECIMAL(8,2),
-    quantidade VARCHAR(30) NOT NULL,
+    quantidade DECIMAL(30) NOT NULL,
     valortotal DECIMAL(8,2)
 );
