@@ -4,22 +4,15 @@
 <Head>
 	<meta charset="utf-8"/>
 	<title> Full Stack Eletro -  Nossas Lojas </title>	
-	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="../css/estilo.css">
 </Head>
 
 <body>
 
-<!--ÍNICIO DO MENU-->
-<nav class="menu">
-	<a href="indexeletro.html">	<img width="160px" src="imagens/logo.png" alt="Logo Full Stack Eletro"></a>
-	
-	<a href="produtos.html"> <img width="160px" src="imagens/produtos.png" alt="Produtos"></a>
-	
-	<a href="nossas.lojas.html"><img width="160px" src="imagens/nossaslojas.png" alt="Nossas Lojas"></a>
-	
-	<a href="contatos.html"><img width="160px" src="imagens/faleconosco.png" alt="Fale Conosco"></a>
-</nav>
-<!--FIM DO MENU-->
+<!-- MENU-->
+<?php
+ include_once('menu.html');
+ ?>
 
  <main>
 
@@ -60,7 +53,7 @@
 
 <footer id="rodape">
 	<h4 id="formas_pagamento"> Formas de Pagamento</h4>		
-	<img src="imagens/formasdepagamento.png"alt="Formas de Pagamento">
+	<img src="../imagens/formasdepagamento.png"alt="Formas de Pagamento">
 	<p>&copy; Recode Pro</p>
 </footer>
 

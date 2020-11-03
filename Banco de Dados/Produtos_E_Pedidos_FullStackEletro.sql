@@ -34,3 +34,12 @@ create table if not exists pedidos(
     quantidade DECIMAL(30) NOT NULL,
     valortotal DECIMAL(8,2)
 );
+
+create table if not exists comentarios(
+    id  AUTO_INCREMENT,
+    nome varchar(100), 
+    msg varchar(300),
+    data dateline default now (), PRIMARY KEY(id));
+
+
+
