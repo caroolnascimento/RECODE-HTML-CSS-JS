@@ -41,5 +41,17 @@ create table if not exists comentarios(
     msg varchar(300),
     data dateline default now (), PRIMARY KEY(id));
 
+UPDATE `fullstackeletro`.`produto` SET `precoantigo` = 'R$ 3.999,00', `precofinal` = 'R$ 2.019,00' WHERE (`idproduto` = '1');
+UPDATE `fullstackeletro`.`produto` SET `precoantigo` = 'R$ 5.999,00', `precofinal` = 'R$ 4.999,00' WHERE (`idproduto` = '2');
+UPDATE `fullstackeletro`.`produto` SET `precoantigo` = 'R$ 899,00', `precofinal` = 'R$ 799,00' WHERE (`idproduto` = '3');
+UPDATE `fullstackeletro`.`produto` SET `precoantigo` = 'R$ 1.200,00', `precofinal` = 'R$ 999,00' WHERE (`idproduto` = '4');
+UPDATE `fullstackeletro`.`produto` SET `precoantigo` = 'R$ 999,00', `precofinal` = 'R$ 899,00' WHERE (`idproduto` = '5');
+UPDATE `fullstackeletro`.`produto` SET `precoantigo` = 'R$ 499,00', `precofinal` = 'R$ 399,00' WHERE (`idproduto` = '6');
+UPDATE `fullstackeletro`.`produto` SET `precoantigo` = 'R$ 549,00', `precofinal` = 'R$ 399,00' WHERE (`idproduto` = '7');
+UPDATE `fullstackeletro`.`produto` SET `precoantigo` = 'R$ 614,00', `precofinal` = 'R$ 482,00' WHERE (`idproduto` = '8');
+UPDATE `fullstackeletro`.`produto` SET `precoantigo` = 'R$ 1.500,00', `precofinal` = 'R$ 1.399,00' WHERE (`idproduto` = '9');
+UPDATE `fullstackeletro`.`produto` SET `precoantigo` = 'R$ 4.899,00', `precofinal` = 'R$ 3.833,00' WHERE (`idproduto` = '10');
+UPDATE `fullstackeletro`.`produto` SET `precoantigo` = 'R$ 3.100,00', `precofinal` = 'R$ 2.000,00' WHERE (`idproduto` = '11');
+UPDATE `fullstackeletro`.`produto` SET `precoantigo` = 'R$ 5.399,00', `precofinal` = 'R$ 4.020,00' WHERE (`idproduto` = '12');
 
 
