@@ -1,13 +1,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+}
+.container {
+    text-align: center;
 }
 
-
-.categorias {
-    width: 300px;
-    padding-left: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+.menunav {
+    background-color: rgb(230, 25, 25);  
+   
   }
+
 .categorias li:hover { 
     font-size: 13px;
     cursor: pointer;
@@ -41,20 +44,8 @@ body {
     width: 120px;
 }
 
-.descricao {
-    text-decoration: black;
-
-}
-
-.strike {
-     text-decoration: line-through; color:#e61919;
-}
-
-.preço { 
-    text-decoration: black;
-
-}
 /*  FIM Produtos*/
+
 
 /* INÍCIO Nossas Lojas */
 
@@ -64,48 +55,17 @@ body {
     margin-left: 200px;   
     margin-left: 50px; 
     padding: 90px;
-    
 }
 /*  FIM Nossas Lojas */
 
+
 /* INÍCIO Fale Conosco */
 
- .borda {
-    text-align: center;
- }
-
- .b {
-    display: inline-block;
-    padding: 30px;
- }
 
 .logo {
     width:40px
 }
 
 /* FIM Fale Conosco */
-
-/* INÍCIO Formulários */
-
-form {
-    text-align: center;
-}
-
-.nome {
-    width: 400px; height: 40px;
-
-}
-.textoarea{
-    width: 400px; height: 80px;
-}
-
-/* FIM Fale Conosco */
-#formas_pagamento {
-    color: #e61919 ;
-}
-
-#rodape {
-    text-align: center;
-}
 
 

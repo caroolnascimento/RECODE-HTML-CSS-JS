@@ -36,12 +36,14 @@
 	<meta charset="utf-8"/>
 	<title> Full Stack Eletro - Fale Conosco</title>
 	<link rel="stylesheet" href="../css/estilo.css">	
-	<!-- Required meta tags -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-</Head>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
 
 <body>
 
@@ -52,31 +54,38 @@
  
 <main>
 
-	<h2>Fale Conosco</h2>
-	<hr>
+<h2 class="display-5">Contatos</h2>
+<hr>
 
 
-<section class="borda">
-	<div class="b">
-		<img class="logo" src="../imagens/email.png">
-		<p>contato@eletrofullstack.com</p>
-	</div>
-
-	<div class="b">
-		<img class="logo" src="../imagens/whatsapp.png">
-		<p>(11) 99999-9999</p>
-	</div>
-</section>
-
+<div class="container">
+			<div class="email row">
+				<div class="zap col text-center">
+					<img class="logo" src="../imagens/email.png" alt="Email">
+					<p>contato@fullstackeletro.com</p>
+				</div>
+				<div class="whatsapp col text-center">
+					<img class="logo" src="../imagens/whatsapp.png" alt="Whatsapp">
+					<p>(11) 99999-9999</p>
+				</div>
+			</div>
+		</div>
 
 <!--INICIO DO FORMULARIO-->
+<div class="container">
 <form method="post" action="">
+<div class="form-group mx-5 texte-center">
 	<h4>Nome:</h4>
 	<input name="nome" class="nome" type="text">
 	<h4>Mensagem: </h4>
 	<textarea name="msg" class="textoarea"></textarea> <br>
-	<input type="submit" value="Enviar">
+	<input class="enviar bg-success mt-3 btn-lg" type="submit" value="Enviar">
+</div>
 </form>
+</div>
+   
+		<div class="container">
+
 
 
 <!--FIM DO FORMULARIO-->
@@ -87,11 +96,16 @@
 <hr>
 </main>
 
-<footer id="rodape">
-	<h4 id="formas_pagamento"> Formas de Pagamento</h4>		
-	<img src="../imagens/formasdepagamento.png"alt="Formas de Pagamento">
-	<p>&copy; Recode Pro</p>
+<!-- RODAPÉ-->
 </footer>
-
+    <div class="container">  
+        <footer id="rodape">
+            <h4 class="text-danger">
+            Formas de Pagamento
+            </h4>
+            <img src="../imagens/formasdepagamento.png" alt="Formas de pagamento">
+            <p>&copy; Recode Pro</p>
+        </footer>
+    </div>
 </body>
 </html>

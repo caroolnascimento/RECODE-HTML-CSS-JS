@@ -5,13 +5,13 @@
 	<meta charset="utf-8"/>
 	<title> Full Stack Eletro -  Nossas Lojas </title>	
 	<link rel="stylesheet" href="../css/estilo.css">
-	<!-- Required meta tags -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-</Head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
 
 <body>
+
+    <div class="container-fluid">
 
 <!-- MENU-->
 <?php
@@ -55,11 +55,16 @@
  <!--FIM DOS ENDEREÇOS-->
 </main>
 
-<footer id="rodape">
-	<h4 id="formas_pagamento"> Formas de Pagamento</h4>		
-	<img src="../imagens/formasdepagamento.png"alt="Formas de Pagamento">
-	<p>&copy; Recode Pro</p>
+<!-- RODAPÉ-->
 </footer>
-
+    <div class="container">  
+        <footer id="rodape">
+            <h4 class="text-danger">
+            Formas de Pagamento
+            </h4>
+            <img src="../imagens/formasdepagamento.png" alt="Formas de pagamento">
+            <p>&copy; Recode Pro</p>
+        </footer>
+    </div>
 </body>
 </html>
