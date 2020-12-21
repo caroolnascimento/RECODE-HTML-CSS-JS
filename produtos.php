@@ -5,8 +5,7 @@
     $bancodados= "fullstackeletro";
 
 	$conexao = mysqli_connect ($servidor, $usuario, $senha, $bancodados);
-	
-	
+		
 ?>
 
 
@@ -16,7 +15,7 @@
 <Head>
 	<meta charset="utf-8"/>
 	<title> Full Stack Eletro - Produtos </title>
-	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
 	<script src="../JavaScript/funcoes.js"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
